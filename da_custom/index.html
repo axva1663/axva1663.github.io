@@ -250,7 +250,7 @@
     `;
     }
 
-    if (info.indexOf(".mp3") !== -1) {
+    if (info.indexOf(".mp3") !== -1 || info.indexOf(".flac") !== -1) {
       return `
       <audio class="asset" controls>
         <source src="${data}" type="audio/mp3">
